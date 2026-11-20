@@ -72,11 +72,11 @@ or inspect the [task IDs and horizons](docs/GETTING_STARTED.md#tasks).
 Completed:
 
 - [x] Public code release: 40 tasks, four end effectors, recording, replay and rendering tools, six baselines.
+- [x] Data release: demonstrations, multi-view videos and baseline checkpoints on Hugging Face with per-dataset integrity certificates and a dataset card.
 - [x] High-resolution render tier: 1024×1024 per camera with 2× supersampling in the multi-view renderer.
 
 In progress and planned:
 
-- [ ] **Data release** — demonstrations, multi-view videos and baseline checkpoints on Hugging Face with per-dataset integrity certificates and a dataset card.
 - [ ] **Richer variation** — object instances, appearance, geometry, layouts, wider initial arm and object poses, and physical properties as controlled evaluation axes with seen/unseen splits.
 - [ ] **Multi-embodiment demonstrations** — Wuji, XHand and gripper data alongside the Sharpa release.
 
@@ -95,11 +95,10 @@ In progress and planned:
 | 📝 [BibTeX](docs/citation.bib) | Downloadable citation for research use |
 
 > [!NOTE]
-> **Data access:** dataset access is temporarily paused while the data
-> release is prepared (see the [roadmap](#roadmap)). Once it reopens,
-> request access on the Hugging Face dataset page and run `hf auth login`
-> before downloading. The leaderboard displays the paper's baseline results;
-> community submissions are not currently open.
+> **Data access:** request access once on the Hugging Face dataset page
+> (approval is automatic), then run `hf auth login` before downloading.
+> The leaderboard displays the paper's baseline results; community submissions
+> are not currently open.
 
 <a id="documentation"></a>
 
