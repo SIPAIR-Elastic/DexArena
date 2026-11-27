@@ -29,6 +29,8 @@ task composition** in a shared simulation benchmark built on SAPIEN and ManiSkil
 This repository provides task environments, demonstration processing tools, and
 baseline training and evaluation code.
 
+> **Physics migration (draft):** the joint-friction repair requires **PhysX 5.3.1 → 5.6.1**, matching rebuilt SAPIEN bindings and the supplied GPU patches. See the [migration and validation guide](docs/physics/PHYSX_561_MIGRATION.md). Native artifact release and repository GPU regression are pending.
+
 <p align="center">
   🧩 <strong>10</strong> long-horizon tasks &nbsp;·&nbsp;
   🎯 <strong>30</strong> stage tasks &nbsp;·&nbsp;
